@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4228/4228171.png" />
     <title>Base Converter</title>
     <style>
         body{
           font-family:'Comic Sans MS';
-          background: black;
+          background: #000 url("preloader.gif");
+          background-size: 70%;
         }
 
         fieldset{
+          background: black;
           margin: auto;
           max-width: 400px;
           border-color: #48ff00;
@@ -32,7 +35,7 @@
         }
 
         #preloader{
-          background: #000 url("https://www.textures4photoshop.com/tex/thumbs/matrix-code-animation-gif-free-animated-background-716.gif") no-repeat no-repeat center center;
+          background: #000 url("preloader.gif") no-repeat no-repeat center center;
           background-size: 100%;
           height: 100%;
           width: 100%;
@@ -147,7 +150,7 @@ $result = ucwords($temp);
       <tr>
         <td style="color:#48ff00; border-radius: 5px"><b>Enter Number</b></td>
         <td colspan="1">
-        <input name="number" type="text" style="color:#48ff00" min="0" placeholder="Enter Number" required/></td>
+        <input name="number" type="text" style="color:black" min="0" value="<?php  echo $num  ?>" placeholder="Enter Number" required/></td>
       </tr>
 
  <br>
@@ -155,7 +158,7 @@ $result = ucwords($temp);
       <tr>
         <td style="color:#48ff00">Enter Current Base</td>
         <td colspan="1">
-        <input name="from_base" type="number" style="color:#black" min="2" max="16" placeholder="From" required/></td>
+        <input name="from_base" type="number" style="color:#black" min="2" max="16" value="<?php  echo $b1  ?>" placeholder="From" required/></td>
       </tr>
 
  <br>
@@ -163,7 +166,7 @@ $result = ucwords($temp);
       <tr>
         <td style="color:#48ff00">Enter Final Base</td>
         <td colspan="1">
-        <input name="to_base" type="number" style="color:black" min="2" max="16" placeholder="To" required/></td>
+        <input name="to_base" type="number" style="color:black" min="2" max="16" value="<?php  echo $b2  ?>" placeholder="To" required/></td>
       </tr>
 
  <br>
@@ -185,8 +188,6 @@ $result = ucwords($temp);
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" hidden></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" hidden></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" hidden></iframe>
-         
+
 </body>
 </html>
