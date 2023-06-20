@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="https://cdn.icon-icons.com/icons2/1857/PNG/512/hacker_117746.png" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1320/1320457.png" />
     <title>Base Converter</title>
     <style>
         body{
